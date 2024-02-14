@@ -43,7 +43,7 @@ export default function Home() {
         <div className="block w-[710px]  gap-3 p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
           <h5 className="mt-6 mb-6 text-3xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Next Gen Image Genrator</h5>
           <p className="font-medium text-base text-gray-700 dark:text-gray-400">Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input.</p>
-          <textarea onChange={(e) => setText(e.target.value)} rows={4} className="text-xl mt-5 block p-2.5 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Enter Prompt here..."></textarea>
+          <textarea onChange={(e) => setText(e.target.value)} rows={4} className="text-xl mt-5 block p-2.5 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write Your Thoughts Here..."></textarea>
           <button className="bg-green-500 text-white p-2 rounded cursor-pointer mt-5" onClick={onClickHandler}>Generate Image</button>
           {loder &&
             <div className="flex items-center justify-center">
